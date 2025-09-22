@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptex | Secure Messaging</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CRYPtex</h1>
+            <p>AES-256 Client-Side Encryption Gateway</p>
+        </header>
+
+        <main>
+            <div class="crypto-box">
+                <h2>Encrypt Message</h2>
+                <textarea id="encrypt-input" placeholder="Type your secret message here..."></textarea>
+                <button id="encrypt-btn">Encrypt</button>
+                <div class="result-box" id="encrypt-output"></div>
+            </div>
+
+            <div class="crypto-box">
+                <h2>Decrypt Message</h2>
+                <textarea id="decrypt-input" placeholder="Paste your encrypted message here..."></textarea>
+                <button id="decrypt-btn">Decrypt</button>
+                <div class="result-box" id="decrypt-output"></div>
+            </div>
+        </main>
+
+        <footer><a href="about.html">How It Works</a></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
