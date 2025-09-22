@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+body {
+    background-color: #0a0a1a;
+    color: #00ffcc;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+header p {
+    color: #aaa;
+    font-size: 1rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+.crypto-box {
+    background: #111;
+    border: 1px solid #00ffcc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+}
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0;
+}
+textarea {
+    width: calc(100% - 20px);
+    height: 100px;
+    background-color: #050510;
+    border: 1px solid #00997a;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    resize: vertical;
+}
+button {
+    background-color: transparent;
+    border: 2px solid #00ffcc;
+    color: #00ffcc;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: #00ffcc;
+    color: #0a0a1a;
+    box-shadow: 0 0 15px #00ffcc;
+}
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #050510;
+    border: 1px dashed #00997a;
+    min-height: 50px;
+    word-wrap: break-word;
+    text-align: left;
+    color: #eee;
+    font-size: 0.9rem;
+}
+footer, .back-link {
+    margin-top: 40px;
+    color: #00997a;
+    text-decoration: none;
+}
+.about-text {
+    text-align: left;
+    color: #ccc;
+    line-height: 1.6;
+}
+.about-text li { margin-bottom: 10px; }
+.about-text strong { color: #00ffcc; }
