@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Cryptex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>About This Application</h1>
+        </header>
+        <main>
+            <div class="about-text">
+                <p>This application demonstrates a secure web architecture using AWS.</p>
+                <ul>
+                    <li>The frontend is hosted on an <strong>Amazon EC2</strong> instance with an Nginx web server.</li>
+                    <li>All cryptographic operations are handled by a serverless <strong>AWS Lambda</strong> function written in Python.</li>
+                    <li>An <strong>Amazon API Gateway</strong> provides the secure endpoint for the frontend to communicate with the Lambda function.</li>
+                    <li>The AES-256 encryption key is securely stored in <strong>AWS Secrets Manager</strong>, never exposed to the client or hardcoded.</li>
+                </ul>
+                <a href="index.html" class="back-link">← Back to Cryptex</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
